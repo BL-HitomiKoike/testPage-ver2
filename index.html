@@ -33,9 +33,9 @@
 <body>
   <h1>ボタンが3つあります</h1>
 
-  <button id="btn1" onclick="(async () => { MyrecTraceClick.sendLog('ボタン1', 'btn1'); location.href='btn1.html'; })()">ボタン1</button>
-  <button id="btn2" onclick="(async () => { MyrecTraceClick.sendLog('ボタン2', 'btn2'); location.href='btn2.html'; })()">ボタン2</button>
-  <button id="btn3" onclick="(async () => { MyrecTraceClick.sendLog('ボタン3', 'btn3'); location.href='btn3.html'; })()">ボタン3</button>
-  <button id="btn4" onclick="(async () => { MyrecTraceClick.sendLog('ボタン4', 'btn3'); location.href='btn4.html'; })()">ボタン4</button>
+  <button id="btn1" onclick="(async () => { await MyrecTraceClick.sendLog('ボタン1', 'btn1'); location.href='btn1.html'; })()">ボタン1</button>
+  <button id="btn2" onclick="(async () => { await MyrecTraceClick.sendLog('ボタン2', 'btn2'); location.href='btn2.html'; })()">ボタン2</button>
+  <button id="btn3" onclick="(async () => { await MyrecTraceClick.sendLog('ボタン3', 'btn3'); location.href='btn3.html'; })()">ボタン3</button>
+  <button id="btn4" onclick="(async () => { await MyrecTraceClick.sendLog('ボタン4', 'btn3'); location.href='btn4.html'; })()">ボタン4</button>
 </body>
 </html>
